@@ -1,0 +1,176 @@
+*{
+    background-color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #fff;
+    /* border-right: 1px solid #dbdbdb; */
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #262626;
+    font-size: 18px;
+}
+
+nav a i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+main {
+    width: 60%;
+    padding: 20px;
+}
+
+.stories {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    /* border: 1px solid #dbdbdb; */
+    border-radius: 5px;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+}
+
+.story-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #d93025; /* Add a border similar to the Instagram story ring */
+    padding: 2px;
+}
+
+.story-username {
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: center;
+    color: #262626;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.feed {
+    background-color: #fff;
+    /* border: 1px solid #dbdbdb; */
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.post-user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.post-time {
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+.post-image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.post-actions i {
+    font-size: 24px;
+    margin-right: 15px;
+}
+
+.post-likes {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post-caption {
+    margin-bottom: 10px;
+}
+
+.post-caption .more {
+    color: #8e8e8e;
+}
+
+.post-comments {
+    margin-bottom: 10px;
+}
+
+.view-comments {
+    color: #8e8e8e;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.comment {
+    margin-bottom: 5px;
+}
+
+.comment-user {
+    font-weight: bold;
+}
+
+.add-comment {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #dbdbdb;
+    padding-top: 10px;
+}
